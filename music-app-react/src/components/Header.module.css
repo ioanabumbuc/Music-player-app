@@ -1,0 +1,66 @@
+.header {
+    width: 100%;
+    /* padding: 30px 10px; */
+    background-color: var(--primary-color);
+    text-align: center;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    height: 100px;
+    z-index: 1;
+}
+
+.registerButton{
+    margin-left:25px;
+}
+
+.header a{
+    text-decoration: none;
+    color:white;
+    font-size:40px;
+}
+
+.header a:hover{
+    color:gainsboro;
+    transition: 200ms;
+}
+
+.searchSong{
+    font-size:20px;
+    height:22px;
+    font-style: italic;
+    font-weight: 300;
+    padding-right: 10px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.searchInput{
+    height: 25px;
+    width:200px;
+}
+
+.genreSelect{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left:10px;
+    font-family:'Courier New', Courier, monospace !important;
+}
+
+.login a{
+    font-size:18px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.secondaryColor {
+    color: var(--secondary-color);
+}
